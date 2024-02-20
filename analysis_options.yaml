@@ -1,0 +1,9 @@
+linter:
+  rules:
+    avoid_print: false
+    prefer_single_quotes: true
+analyzer:
+  exclude:
+    - "lib/native/*.dart"
+    - '**/*.g.dart'
+    - '**/*.pb.dart'
